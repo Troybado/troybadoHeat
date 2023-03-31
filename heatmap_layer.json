@@ -6,7 +6,7 @@
 		"layer": "4.4"
 	},
 	"domain": "enterprise-attack",
-	"description": "A Heatmap based on UC Repov2.1",
+	"description": "Heatmap based on UC Repov2.1",
 	"filters": {
 		"platforms": [
 			"Linux",
@@ -1557,33 +1557,12 @@
 			"#8ec843ff",
 			"#ffe766ff",
 			"#ff6b6bff",
-			"#ff5050ff",
-			"#ff4343ff",
-			"#ff3131ff",
-			"#ff2424ff",
-			"#ff1a1aff",
-			"#ff1010ff",
-			"#ff0606ff",
-			"#ff0000ff",
-			"#ff0000ff"
+			"#ff5050ff"
 		],
 		"minValue": 1,
-		"maxValue": 20
+		"maxValue": 7
 	},
-	"legendItems": [
-		{
-			"label": "",
-			"color": "#74c476"
-		},
-		{
-			"label": "  ",
-			"color": "#e6d60d"
-		},
-		{
-			"label": "   ",
-			"color": "#fc3b3b"
-		}
-	],
+	"legendItems": [],
 	"metadata": [],
 	"links": [],
 	"showTacticRowBackground": false,

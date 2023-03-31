@@ -28,7 +28,7 @@
 		"aggregateFunction": "max",
 		"showID": false,
 		"showName": true,
-		"showAggregateScores": true,
+		"showAggregateScores": false,
 		"countUnscored": false
 	},
 	"hideDisabled": false,
@@ -498,7 +498,7 @@
 		{
 			"techniqueID": "T1003",
 			"tactic": "credential-access",
-			"score": 2,
+			"score": 7,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -696,7 +696,7 @@
 		{
 			"techniqueID": "T1562",
 			"tactic": "defense-evasion",
-			"score": 1,
+			"score": 3,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -993,7 +993,7 @@
 		{
 			"techniqueID": "T1021",
 			"tactic": "lateral-movement",
-			"score": 1,
+			"score": 5,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -1301,7 +1301,7 @@
 		{
 			"techniqueID": "T1569",
 			"tactic": "execution",
-			"score": 1,
+			"score": 2,
 			"color": "",
 			"comment": "",
 			"enabled": true,

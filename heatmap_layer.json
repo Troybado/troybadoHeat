@@ -6,7 +6,7 @@
 		"layer": "4.4"
 	},
 	"domain": "enterprise-attack",
-	"description": "Heatmap based on UC Repov2.1",
+	"description": "A Heatmap based on UC Repov2.1",
 	"filters": {
 		"platforms": [
 			"Linux",
@@ -25,10 +25,10 @@
 	"sorting": 3,
 	"layout": {
 		"layout": "side",
-		"aggregateFunction": "max",
+		"aggregateFunction": "average",
 		"showID": false,
 		"showName": true,
-		"showAggregateScores": true,
+		"showAggregateScores": false,
 		"countUnscored": false
 	},
 	"hideDisabled": false,
@@ -1319,237 +1319,6 @@
 			"metadata": [],
 			"links": [],
 			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1583",
-			"tactic": "resource-development",
-			"score": 5,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1543",
-			"tactic": "persistence",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1543",
-			"tactic": "privilege-escalation",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1071",
-			"tactic": "command-and-control",
-			"score": 2,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1552",
-			"tactic": "credential-access",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1550",
-			"tactic": "defense-evasion",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1550",
-			"tactic": "lateral-movement",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1595",
-			"tactic": "reconnaissance",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1548",
-			"tactic": "privilege-escalation",
-			"score": 2,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1548",
-			"tactic": "defense-evasion",
-			"score": 2,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1087",
-			"tactic": "discovery",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1074",
-			"tactic": "collection",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1584",
-			"tactic": "resource-development",
-			"score": 2,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1204",
-			"tactic": "execution",
-			"score": 7,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1565",
-			"tactic": "impact",
-			"score": 5,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1505",
-			"tactic": "persistence",
-			"score": 2,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1134",
-			"tactic": "defense-evasion",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1134",
-			"tactic": "privilege-escalation",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1052",
-			"tactic": "exfiltration",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1484",
-			"tactic": "defense-evasion",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
-		},
-		{
-			"techniqueID": "T1484",
-			"tactic": "privilege-escalation",
-			"score": 1,
-			"color": "",
-			"comment": "",
-			"enabled": true,
-			"metadata": [],
-			"links": [],
-			"showSubtechniques": false
 		}
 	],
 	"gradient": {
@@ -1557,10 +1326,18 @@
 			"#8ec843ff",
 			"#ffe766ff",
 			"#ff6b6bff",
-			"#ff5050ff"
+			"#ff5050ff",
+			"#ff4343ff",
+			"#ff3131ff",
+			"#ff2424ff",
+			"#ff1a1aff",
+			"#ff1010ff",
+			"#ff0606ff",
+			"#ff0000ff",
+			"#ff0000ff"
 		],
 		"minValue": 1,
-		"maxValue": 7
+		"maxValue": 20
 	},
 	"legendItems": [],
 	"metadata": [],

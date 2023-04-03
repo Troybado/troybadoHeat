@@ -1,8 +1,8 @@
 {
     "name": "heatmap example",
     "versions": {
-        "layer": "4.1",
-        "navigator": "4.1"
+        "layer": "4.4",
+        "navigator": "4.4"
     },
     "sorting": 3,
     "description": "An example layer where all techniques have a randomized score",
